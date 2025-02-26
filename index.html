@@ -1,1 +1,41 @@
-
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 로고 페이지</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .logo-container {
+            text-align: center;
+        }
+        
+        /* SVG 로고 스타일 */
+        .svg-logo {
+            width: 200px;
+            height: 200px;
+            filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <!-- 아래에 SVG 코드가 들어갑니다 -->
+        <svg class="svg-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <!-- 여기에 SVG 로고 코드를 넣으세요 -->
+            <!-- 예시 SVG 코드 (간단한 원) -->
+            <circle cx="50" cy="50" r="40" fill="white" />
+        </svg>
+    </div>
+</body>
+</html>
